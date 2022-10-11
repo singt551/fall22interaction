@@ -1,0 +1,12 @@
+body {
+    background-color: #E3DEDE;
+    font-family: 'Baskerville', regular;
+    padding: 5px;
+}
+h1{
+    text-align: center;
+    color: #6614EC;
+    font-size: 120px;
+    font-style: italic;
+    margin-bottom: 0px;
+}

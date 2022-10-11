@@ -1,0 +1,101 @@
+head {
+    font-family: Cochin;
+  }
+
+  h1 {
+    color: rgb(7, 61, 71);
+    text-align: center;
+    font-family: Playfair Display, serif;
+    font-size: 100px; 
+    line-height: 100px;
+  }
+
+  h2 {
+    color: rgb(7, 74, 86);
+    text-align: center;
+    font-family: Cochin;
+    font-size: 30px;
+    line-height: 5px;
+    font-style: italic;
+  }
+
+  .box_item{
+    width: 1385px;
+    height: 180px;
+    background-color:#ffb617e5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Alice, serif;
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(16, 66, 75);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .box_item:hover{
+    font-size: 0;
+  }
+
+  .box_item:hover:after{
+    content: attr(data-hover);
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 200px;
+    text-align: center;
+  }
+  
+  h4 {
+    color: rgb(1, 29, 34);
+font-style: bold;
+font-size: 20px;
+line-height: 10px;
+font-family: EB Garamond, serif;
+  }
+  
+  
+  p {
+    font-family: Cochin;
+    font-size: 50px;
+  }
+
+  div {
+    padding-top: 0px;
+    padding-right: 60px;
+    padding-bottom: 0px;
+    padding-left: 60px;
+  }
+
+.flex-container{
+  display: flex;
+
+}
+
+.main-content{
+  flex: 1;
+  width: 30px;
+}
+
+.sidebar{
+  flex: 1;
+  width: 70px;
+}
+
+@media all and (min-width: 600px) {
+  body {
+    font-size: large;
+  }
+}
+
+@media all and (min-width: 800px) {
+  p {
+    font-size: large;
+    line-height: 1.5;
+  }
+}
+
+

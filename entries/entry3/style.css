@@ -1,0 +1,57 @@
+  head {
+    font-family: Cochin;
+  }
+
+  h1 {
+    color: rgb(7, 61, 71);
+    text-align: center;
+    font-family: Playfair Display, serif;
+    font-size: 100px; 
+    line-height: 82px;
+  }
+
+  h2 {
+    color: rgb(7, 74, 86);
+    text-align: center;
+    font-family: Cochin;
+    font-size: 30px;
+    line-height: 5px;
+    font-style: italic;
+  }
+
+  h3 {
+    background-color: #ffb617e5;
+    padding: 20px 50px;
+    text-align: center;
+    color: rgb(16, 66, 75);
+    font-size: 30px;
+    font-family: Alice, serif;
+    
+  }
+  
+  h4 {
+    color: rgb(1, 29, 34);
+font-style: bold;
+font-size: 20px;
+line-height: 10px;
+font-family: EB Garamond, serif;
+  }
+  
+  body {
+    font-family: Cochin;
+    font-size: 18px;
+  }
+  
+  p {
+    font-family: Cochin;
+    font-size: 30px;
+  }
+
+  div {
+    padding-top: 0px;
+    padding-right: 60px;
+    padding-bottom: 0px;
+    padding-left: 60px;
+  }
+  
+
