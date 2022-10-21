@@ -1,99 +1,121 @@
-head {
-    font-family: Cochin;
-  }
+:root{
+  --main-radius: 5px;
+  --main-padding: 5px;
 
-  h1 {
-    color: rgb(7, 61, 71);
-    text-align: center;
-    font-family: Playfair Display, serif;
-    font-size: 100px; 
-    line-height: 100px;
-  }
+}
 
-  h2 {
-    color: rgb(7, 74, 86);
-    text-align: center;
-    font-family: Cochin;
-    font-size: 30px;
-    line-height: 5px;
-    font-style: italic;
-  }
+.container{
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr .6fr;
+  grid-template-rows: .5fr .1fr .5fr, 1fr;
+  grid-template-areas: 
+  "content1 content1"
+  "content2 content2"
+  "content3 content4" 
+  "content5 content5";
+  grid-gap: 0.2rem;
+  font-family: 'Source Serif Pro', serif;
+  text-align: center;
+  background-color: rgb(223, 180, 120);
+}
 
-  .box_item{
-    width: 1385px;
-    height: 180px;
-    background-color:#ffb617e5;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Alice, serif;
-    font-size: 30px;
-    font-weight: 800;
-    color: rgb(16, 66, 75);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 20px;
-    text-align: center;
-  }
+#content1{
+  background: rgb(255, 95, 148);
+  grid-area: content1;
+  border-radius: var(--main-radius);
+  padding-top: var(--main-padding);
+  font-weight: 800;
+  font-size: 70px;
+  color: rgb(7, 61, 71);
+}
 
-  .box_item:hover{
-    font-size: 0;
-  }
+#content2{
+  background:rgb(196, 53, 184);
+  grid-area: content2;
+  border-radius: var(--main-radius);
+  padding-top: var(--main-padding);
+  font-weight: 300;
+  font-size: 30px;
+  text-transform: lowercase;
+  font-style: italic;
+}
 
-  .box_item:hover:after{
-    content: attr(data-hover);
-    font-size: 24px;
-    line-height: 28px;
-    font-weight: 200px;
-    text-align: center;
-  }
-  
-  h4 {
-    color: rgb(1, 29, 34);
-font-style: bold;
-font-size: 20px;
-line-height: 10px;
-font-family: EB Garamond, serif;
-  }
-  
-  
-  p {
-    font-family: Cochin;
-    font-size: 50px;
-  }
+#content3{
+  background:rgb(227, 111, 196);
+  grid-area: content3;
+  border-radius: var(--main-radius);
+  padding-top: var(--main-padding);
+  font-weight: 300;
+  font-size: 30px;
+  color:rgb(255, 255, 255);
+}
 
-  div {
-    padding-top: 0px;
-    padding-right: 60px;
-    padding-bottom: 0px;
-    padding-left: 60px;
-  }
+#content4{
+  background:rgba(172, 126, 211, 0.835);
+  grid-area: content4;
+  border-radius: var(--main-radius);
+  padding-top: var(--main-padding);
+  font-weight: 300;
+  font-size: 30px;
+  color:rgb(47, 3, 60)
+}
 
-.flex-container{
+#content5{
+  background:rgba(159, 65, 240, 0.835);
+  grid-area: content5;
+  border-radius: var(--main-radius);
+  padding-top: var(--main-padding);
+  font-weight: 300;
+  font-size: 30px;
+  color:rgb(47, 3, 60)
+}
+
+.box_item{
   display: flex;
-
+  align-items: center;
+  justify-content: center;
+  font-family: Alice, serif;
+  font-size: 40px;
+  font-weight: 800;
+  color: rgb(16, 66, 75);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  text-align: center;
 }
 
-.main-content{
-  flex: 1;
-  width: 30px;
+.box_item:hover{
+  font-size: 0;
 }
 
-.sidebar{
-  flex: 1;
-  width: 70px;
+.box_item:hover:after{
+  content: attr(data-hover);
+  font-size: 25px;
+  line-height: 28px;
+  font-weight: 200px;
+  text-align: center;
 }
 
-@media all and (min-width: 600px) {
-  body {
-    font-size: large;
-  }
+.underlined{
+  text-decoration: underline;
 }
 
-@media all and (min-width: 800px) {
-  p {
-    font-size: large;
-    line-height: 1.5;
+.bolded{
+  font-weight: bold;
+}
+
+@media only screen and (max-width:800px){
+  .container{
+      grid-template-columns: 1fr;
+      grid-template-rows: 0.4fr 0.2fr 1.2fr 1.2fr 1.2fr;
+      grid-template-areas: 
+      "content1"
+      "content2"
+      "content3"
+      "content4"
+      "content5";
+      font-size: 20%;
   }
 }
