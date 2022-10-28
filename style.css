@@ -16,7 +16,7 @@
     "content6 content7 content8"
     "content9 content10 content11"
     "content12 content13 content14";
-    grid-gap: 0.2rem;
+    grid-gap: 0.6rem;
     font-family: Alice, serif;
     color: rgb(1, 53, 62);
     text-align: center;
@@ -30,7 +30,7 @@
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
     font-weight: 800;
-    font-size: 120px;
+    font-size: 90px;
     text-transform: uppercase;
 }
 
@@ -40,8 +40,9 @@
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
     font-weight: 300;
-    font-size: 40px;
+    font-size: 35px;
     text-transform: lowercase;
+    justify-content: left;
 }
 
 #content3{
@@ -51,7 +52,9 @@
     padding-top: var(--main-padding);
     font-weight: 100;
     font-size: 30px;
-    text-transform: uppercase;
+    justify-content: left;
+    padding: 10px;
+    
 }
 
 #content4{
@@ -61,7 +64,8 @@
     padding-top: var(--main-padding);
     font-weight: 100;
     font-size: 30px;
-    text-transform: uppercase;
+    justify-content: left;
+    padding: 10px;
 }
 
 #content5{
@@ -71,7 +75,8 @@
     padding-top: var(--main-padding);
     font-weight: 100;
     font-size: 30px;
-    text-transform: uppercase;
+    justify-content: left;
+    padding: 10px;
 }
 
 #content6{
@@ -81,7 +86,8 @@
     padding-top: var(--main-padding);
     font-weight: 100;
     font-size: 30px;
-    text-transform: uppercase;
+    justify-content: left;
+    padding: 10px;
 }
 
 #content7{
@@ -91,7 +97,8 @@
     padding-top: var(--main-padding);
     font-weight: 100;
     font-size: 30px;
-    text-transform: uppercase;
+    justify-content: left;
+    padding: 10px;
 }
 
 #content8{
@@ -101,7 +108,8 @@
         padding-top: var(--main-padding);
         font-weight: 100;
         font-size: 30px;
-        text-transform: uppercase;
+        justify-content: left;
+        padding: 10px;
     }
 
 #content9{
@@ -111,7 +119,8 @@
         padding-top: var(--main-padding);
         font-weight: 100;
         font-size: 30px;
-        text-transform: uppercase;
+        justify-content: left; 
+        padding: 10px;
     }
 
 #content10{
@@ -121,7 +130,8 @@
         padding-top: var(--main-padding);
         font-weight: 100;
         font-size: 30px;
-        text-transform: uppercase;
+        justify-content: left;
+        padding: 10px;
     }
 
     #content11{
@@ -131,7 +141,8 @@
         padding-top: var(--main-padding);
         font-weight: 100;
         font-size: 30px;
-        text-transform: uppercase;
+        justify-content: left;
+        padding: 10px;
     }
 
 #content12{
@@ -141,7 +152,8 @@
         padding-top: var(--main-padding);
         font-weight: 100;
         font-size: 30px;
-        text-transform: uppercase;
+        justify-content: left;
+        padding: 10px;
     }
 
 #content13{
@@ -151,7 +163,8 @@
         padding-top: var(--main-padding);
         font-weight: 100;
         font-size: 30px;
-        text-transform: uppercase;
+        justify-content: left;
+        padding: 10px;
     }
 
 #content14{
@@ -161,7 +174,8 @@
         padding-top: var(--main-padding);
         font-weight: 100;
         font-size: 30px;
-        text-transform: uppercase;
+        justify-content: left;
+        padding: 10px;
     }
 
 @media only screen and (max-width:800px){

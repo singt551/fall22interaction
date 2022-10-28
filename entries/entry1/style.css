@@ -92,10 +92,6 @@
 
 .box_item:hover:after{
   content: attr(data-hover);
-  font-size: 25px;
-  line-height: 28px;
-  font-weight: 200px;
-  text-align: center;
 }
 
 .underlined{

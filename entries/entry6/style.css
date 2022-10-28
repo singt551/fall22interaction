@@ -1,100 +1,218 @@
-head {
-    font-family: Cochin;
+.container{
+  display: grid;
+  height: 147vh;
+  grid-template-columns: 0.3fr 2fr;
+  grid-template-rows: .3fr .1fr .1fr .1fr .1fr .1fr .1fr .2fr;
+  grid-template-areas: 
+  "content1 content2"
+  "content1 content3"
+  "content1 content4"
+  "content1 content5"
+  "content1 content6"
+  "content1 content7"
+  "content1 content8"
+  "content1 content9";
+  grid-gap: 0.4rem;
+  font-family: Alice, serif;
+  color: rgb(1, 53, 62);
+  text-align: center;
+  background-color: #A6B1A3;
+}
+
+#content1{
+  grid-area: content1;
+  justify-content: center;
+  display: block;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  font-family: 'Chonburi', cursive;
+  color: #2B463E;
+  font-size: 20px;
+}
+
+#content2{
+  grid-area: content2;
+  font-family: 'Chonburi', cursive;
+  font-size: 100px;
+  color: #2B463E;
+}
+
+#content3{
+  grid-area: content3;
+  font-family: 'Chonburi', cursive;
+  font-size: 30px;
+  color: #057275;
+  text-align: center;
+  max-width: 600px;
+  position: relative;
+}
+
+#content3:before {
+content: "";
+display: block;
+width: 190px;
+height: 3px;
+background: #0c2019;
+left: 0;
+top: 50%;
+position: absolute;
+justify-content: center;
+}
+
+#content4{
+  grid-area: content4;
+  font-family: 'Chonburi', cursive;
+  font-size: 30px;
+  color: #69792F;
+  text-align: center;
+  max-width: 600px;
+  position: relative;
+}
+
+#content4:before {
+  content: "";
+  display: block;
+  width: 170px;
+  height: 3px;
+  background: #0c2019;
+  left: 0;
+  top: 50%;
+  position: absolute;
+  justify-content: center;
   }
 
-  h1 {
-    color: rgb(7, 61, 71);
-    text-align: center;
-    font-family: Playfair Display, serif;
-    font-size: 100px; 
-    line-height: 100px;
+#content5{
+  grid-area: content5;
+  font-family: 'Chonburi', cursive;
+  font-size: 30px;
+  color: #057275;
+  text-align: center;
+  max-width: 600px;
+  position: relative;
+}
+
+#content5:before {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 3px;
+  background: #0c2019;
+  left: 0;
+  top: 50%;
+  position: absolute;
+  justify-content: center;
   }
 
-  h2 {
-    color: rgb(7, 74, 86);
-    text-align: center;
-    font-family: Cochin;
-    font-size: 30px;
-    line-height: 5px;
-    font-style: italic;
+#content6{
+  grid-area: content6;
+  font-family: 'Chonburi', cursive;
+  font-size: 30px;
+  color: #69792F;
+  text-align: center;
+  max-width: 600px;
+  position: relative;
+}
+
+#content6:before {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 3px;
+  background: #0c2019;
+  left: 0;
+  top: 50%;
+  position: absolute;
+  justify-content: center;
   }
 
-  .box_item{
-    width: 1385px;
-    height: 180px;
-    background-color:#ffb617e5;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Alice, serif;
-    font-size: 30px;
-    font-weight: 800;
-    color: rgb(16, 66, 75);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 20px;
-    text-align: center;
+#content7{
+  grid-area: content7;
+  font-family: 'Chonburi', cursive;
+  font-size: 30px;
+  color: #057275;
+  text-align: center;
+  max-width: 600px;
+  position: relative;
+}
+
+#content7:before {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 3px;
+  background: #0c2019;
+  left: 0;
+  top: 50%;
+  position: absolute;
+  justify-content: center;
   }
 
-  .box_item:hover{
-    font-size: 0;
+#content8{
+  grid-area: content8;
+  font-family: 'Chonburi', cursive;
+  font-size: 30px;
+  color: #69792F;
+  text-align: center;
+  max-width: 600px;
+  position: relative;
+}
+
+#content8:before {
+  content: "";
+  display: block;
+  width: 250px;
+  height: 3px;
+  background: #0c2019;
+  left: 0;
+  top: 50%;
+  position: absolute;
+  justify-content: center;
   }
 
-  .box_item:hover:after{
-    content: attr(data-hover);
-    font-size: 24px;
-    line-height: 28px;
-    font-weight: 200px;
-    text-align: center;
-  }
+#content9{
+  grid-area: content9;
+  font-family: 'Chonburi', cursive;
+  font-size: 20px;
+  color:#2B463E;
+  margin-right: 20px;
   
-  h4 {
-    color: rgb(1, 29, 34);
-font-style: bold;
-font-size: 20px;
-line-height: 10px;
-font-family: EB Garamond, serif;
-  }
-  
-  
-  p {
-    font-family: Cochin;
-    font-size: 50px;
-  }
-
-  div {
-    padding-top: 0px;
-    padding-right: 60px;
-    padding-bottom: 0px;
-    padding-left: 60px;
-  }
-
-.flex-container{
-  display: flex;
-
 }
 
-.main-content{
-  flex: 1;
-  width: 30px;
+h1{
+  font-family: 'Chonburi', cursive;
+  color: #233d3d;
+  font-size: 40px;
+  line-height: 180px;
 }
 
-.sidebar{
-  flex: 1;
-  width: 70px;
+h2{
+  font-family: 'Chonburi', cursive;
+  color: #36846d;
+  font-size: 80px;
+  line-height: 0px;
+  margin-top: 20px;
 }
 
-@media all and (min-width: 600px) {
-  body {
-    font-size: large;
-  }
+.center{
+  text-align: center;
 }
 
-@media all and (min-width: 800px) {
-  p {
-    font-size: large;
-    line-height: 1.5;
+
+@media only screen and (max-width:800px){
+  .container{
+    grid-template-columns: 0.3fr 2fr;
+    grid-template-rows: .3fr .1fr .1fr .1fr .1fr .1fr .1fr .2fr;
+    grid-template-areas: 
+    "content1 content2"
+    "content1 content3"
+    "content1 content4"
+    "content1 content5"
+    "content1 content6"
+    "content1 content7"
+    "content1 content8"
+    "content1 content9";
+    font-size: 20%;
   }
 }
 

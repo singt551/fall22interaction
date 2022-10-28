@@ -6,13 +6,13 @@ body{
   .container {
     display: grid;
     height: 100vh;
-    grid-template-columns: 1fr .4fr .4fr .4fr;
+    grid-template-columns: .8fr .5fr .5fr .5fr;
     grid-template-rows: .4fr .4fr .4fr .4fr;
     grid-template-areas: 
     "content1 content4 content5 content6" 
     "content1 content7 content8 content9"
     "content1 content10 content11 content12"
-    "content13 content13 content13 content13";
+    "content2 content3 content13 content14";
   }
   
   #content1{
@@ -20,7 +20,8 @@ body{
     color:#fa284e;
     text-align: center;
     font-family: 'Fredoka One', cursive;
-    font-size: 120px; 
+    font-size: 170px; 
+    justify-content: center;
   }
 
   #content4{
@@ -106,6 +107,27 @@ body{
     text-align: center;
     font-family: 'Fredoka One', cursive;
     font-size: 30px;
+    justify-content: left;
+  }
+
+  #content3{
+    grid-area: content3;
+    color: rgba(80, 102, 226, 0.847);
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    font-size: 130px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+  }
+
+  #content14{
+    grid-area: content14;
+    color: rgb(10, 48, 237);
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+    justify-content: left;
   }
 
   p{
@@ -115,13 +137,13 @@ body{
     font-size: 20px;
   }
 
-  h3{
-    color: #b01c37;
+  #content2{
+    grid-area: content2;
+    color: #FE6862;
     text-align: center;
     font-family: 'Fredoka One', cursive;
     font-size: 50px;
-    font-style: uppercase;
-    text-align: center;
+    font-style: italic;
   }
 
   h1{
@@ -129,31 +151,30 @@ body{
     color:#fa284e;
     text-align: center;
     font-family: 'Fredoka One', cursive;
-    font-size: 110px; 
+    font-size: 170px; 
+    justify-content: center;
   }
-  
+
   h2{
     grid-area: content2;
     color: #FE6862;
     text-align: center;
     font-family: 'Fredoka One', cursive;
-    font-size: 30px;
-    line-height: 5px;
+    font-size: 40px;
     font-style: italic;
   }
 
-  .rotate {
-    animation: rotation 5s infinite linear;
+  h3{
+    grid-area: content3;
+    color: #b01c37;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    font-size: 60px;
+    font-style: uppercase;
+    text-align: center;
   }
-  
-  @keyframes rotation {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(359deg);
-    }
-  }
+
+
 
 
 
