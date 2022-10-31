@@ -69,6 +69,7 @@
   font-weight: 300;
   font-size: 30px;
   color:rgb(47, 3, 60)
+  
 }
 
 #content5 #recipe{
@@ -101,7 +102,6 @@
   text-align: center;
 }
 
-
 .underlined{
   text-decoration: underline;
 }
@@ -120,6 +120,5 @@
       "content3"
       "content4"
       "content5";
-      font-size: 20%;
   }
 }
