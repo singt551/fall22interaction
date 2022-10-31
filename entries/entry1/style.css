@@ -71,6 +71,21 @@
   color:rgb(47, 3, 60)
 }
 
+#content5 #recipe{
+  display: none;
+}
+
+#content5:hover #recipe{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#content5:hover .box_item{
+  opacity: 0;
+  font-size: 0;
+}
+
 .box_item{
   display: flex;
   align-items: center;
@@ -86,13 +101,6 @@
   text-align: center;
 }
 
-.box_item:hover{
-  font-size: 0;
-}
-
-.box_item:hover:after{
-  content: attr(data-hover);
-}
 
 .underlined{
   text-decoration: underline;
