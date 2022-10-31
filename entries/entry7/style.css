@@ -1,0 +1,360 @@
+h1{
+    font-family: 'Fredericka the Great', cursive;
+    color: orangered;
+    font-size: 80px;
+    text-align: center;
+    font-weight: 200;
+}
+
+h2{
+    font-family: 'Fredericka the Great', cursive;
+    color: rgb(141, 31, 6);
+    font-size: 40px;
+    text-align: center;
+    font-weight: 200;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+    grid-template-rows: .5fr;
+    grid-template-areas: 
+    "content1 content2";
+    margin: 30px;
+}
+
+#content1{
+    grid-area: content1;
+    font-family: 'Fredericka the Great', cursive;
+    color: rgb(224, 112, 87);
+    font-size: 140px;
+    text-align: center;
+    font-weight: 200;
+}
+
+#content2{
+    grid-area: content2;
+    font-family: 'Fredericka the Great', cursive;
+    color: rgb(141, 31, 6);
+    font-size: 30px;
+    text-align: center;
+    font-weight: 200;
+}
+
+body{
+    background-color: rgb(255, 235, 211);
+    margin: 20px;
+}
+
+
+
+/*  div{
+  border: solid 2px red;
+} */
+ 
+img {
+object-fit: cover;
+width: 100%;
+height: 100%;
+}
+
+#recipe{
+  width: 60vw;
+}
+
+.image{
+  display: flex;
+  justify-content: center;
+}
+ 
+ .parent { 
+ display: grid; 
+ grid-template-columns: repeat(12, 1fr); 
+ grid-template-rows: repeat(8, 1fr); 
+ grid-column-gap: 0px;
+ grid-row-gap: 0px; 
+ border-radius: 5px;
+ }
+
+ .div1 { 
+  grid-area: 1 / 4 / 9 / 10; 
+  z-index: 5;
+  opacity: 0;
+  filter: blur(40px);
+  transition: opacity 1s, filter 1s;
+} 
+
+.div1:hover{
+  filter:blur(0px);
+  opacity: 1;
+}
+ 
+ /* row 1 */
+ .div2 { 
+   grid-area: 1 / 1 / 2 / 2;
+   background-color: #383F4F;
+ } 
+ .div3 { 
+   grid-area: 1 / 2 / 2 / 3; 
+   background-color: #383F4F;
+ } 
+ .div4 { 
+   grid-area: 1 / 3 / 2 / 4; 
+   background-color: #383F4F;
+ } 
+ .div5 { 
+   grid-area: 1 / 4 / 2 / 5; 
+   background-color: #42AF5A;
+ } 
+ .div6 { 
+   grid-area: 1 / 5 / 2 / 6;
+   background-color: #383F4F;
+ } 
+ .div7 { 
+   grid-area: 1 / 6 / 2 / 7;
+   background-color: #383F4F;
+ } 
+ 
+ .div8 { grid-area: 1 / 7 / 2 / 8; } 
+ 
+ /* row 2 */
+ .div9 { 
+   grid-area: 2 / 1 / 3 / 2; 
+   background-color: #383F4F;
+ } 
+ .div10 { 
+   grid-area: 2 / 2 / 3 / 3;
+   background-color: #F0C27C;
+ } 
+ .div11 { 
+   grid-area: 2 / 3 / 3 / 4;
+   background-color: #383F4F;
+ } 
+ .div12 { 
+   grid-area: 2 / 4 / 3 / 5; 
+   background-color: #42AF5A;
+ } 
+ .div13 { 
+   grid-area: 2 / 5 / 3 / 6;
+   background-color: #42AF5A;
+ } 
+ .div14 { 
+   grid-area: 2 / 6 / 3 / 7; 
+   background-color: #383F4F;
+ } 
+ 
+ .div15 { grid-area: 2 / 7 / 3 / 8; } 
+ 
+ .div16 { 
+   grid-area: 3 / 1 / 4 / 2;
+   background-color: #383F4F;
+ } 
+ .div17 { 
+   grid-area: 3 / 2 / 4 / 3;
+   background-color: #F0C27C;
+ } 
+ .div18 { 
+   grid-area: 3 / 3 / 4 / 4; 
+   background-color: #383F4F;
+ } 
+ .div19 { 
+   grid-area: 3 / 4 / 4 / 5; 
+   background-color: #42AF5A;
+ } 
+ .div20 { 
+   grid-area: 3 / 5 / 4 / 6; 
+   background-color: #42AF5A;
+ } 
+ .div21 { 
+   grid-area: 3 / 6 / 4 / 7;
+   background-color: #42AF5A;
+ }
+ 
+ .div22 { grid-area: 3 / 7 / 4 / 8; } 
+ 
+ 
+ .div23 { 
+   grid-area: 4 / 1 / 5 / 2; 
+   background-color: #383F4F;
+ } 
+ .div24 { 
+   grid-area: 4 / 2 / 5 / 3;
+   background-color: #F0C27C;
+ } 
+ .div25 { 
+   grid-area: 4 / 3 / 5 / 4;
+   background-color: #383F4F;
+ } 
+ .div26 { 
+   grid-area: 4 / 4 / 5 / 5;
+   background-color: #2AF93F;
+ } 
+ .div27 { 
+   grid-area: 4 / 5 / 5 / 6; 
+   background-color: #42AF5A;
+ } 
+ .div28 { 
+   grid-area: 4 / 6 / 5 / 7; 
+   background-color: #383F4F;
+ }
+ 
+ .div29 { grid-area: 4 / 7 / 5 / 8; }
+ 
+ .div30 { 
+   grid-area: 5 / 1 / 6 / 2;
+   background-color: #383F4F;
+ } 
+ .div31 { 
+   grid-area: 5 / 2 / 6 / 3;
+   background-color: #F0C27C;
+ } 
+ .div32 { 
+   grid-area: 5 / 3 / 6 / 4; 
+   background-color: #2AF93F;
+ } 
+ .div33 { 
+   grid-area: 5 / 4 / 6 / 5; 
+   background-color: #42AF5A;
+ } 
+ .div34 { 
+   grid-area: 5 / 5 / 6 / 6;
+   background-color: #1B5C22;
+ } 
+ .div35 { 
+   grid-area: 5 / 6 / 6 / 7; 
+   background-color: #383F4F;
+ }
+ 
+ .div36 { grid-area: 5 / 7 / 6 / 8; } 
+ 
+ .div37 { 
+   grid-area: 6 / 1 / 7 / 2;
+   background-color: #383F4F;
+ } 
+ .div38 { 
+   grid-area: 6 / 2 / 7 / 3;
+   background-color: #F0C27C;
+ } 
+ .div39 { 
+   grid-area: 6 / 3 / 7 / 4; 
+   background-color: #1B5C22;
+ } 
+ .div40 { 
+   grid-area: 6 / 4 / 7 / 5;
+   background-color: #1B5C22;
+ } 
+ .div41 { 
+   grid-area: 6 / 5 / 7 / 6; 
+   background-color: #0AA61A;
+ } 
+ .div42 { 
+   grid-area: 6 / 6 / 7 / 7;
+   background-color: #383F4F;
+ }
+ 
+ .div43 { grid-area: 6 / 7 / 7 / 8; } 
+ 
+ .div44 { 
+   grid-area: 7 / 1 / 8 / 2;
+   background-color: #383F4F;
+ } 
+ .div45 { 
+   grid-area: 7 / 2 / 8 / 3;
+   background-color: #F0C27C;
+ } 
+ .div46 { 
+   grid-area: 7 / 3 / 8 / 4;
+   background-color: #383F4F;
+ } 
+ .div47 { 
+   grid-area: 7 / 4 / 8 / 5; 
+   background-color: #42AF5A;
+ } 
+ .div48 { 
+   grid-area: 7 / 5 / 8 / 6;
+   background-color: #383F4F;
+ } 
+ .div49 { 
+   grid-area: 7 / 6 / 8 / 7;
+   background-color: #0AA61A;
+ }
+ 
+ .div50 { grid-area: 7 / 7 / 8 / 8; }
+ 
+ .div51 { 
+   grid-area: 8 / 1 / 9 / 2;
+   background-color: #383F4F;
+ } 
+ .div52 { 
+   grid-area: 8 / 2 / 9 / 3;
+   background-color: #383F4F;
+ } 
+ .div53 { 
+   grid-area: 8 / 3 / 9 / 4; 
+   background-color: #383F4F;
+ } 
+ .div54 { 
+   grid-area: 8 / 4 / 9 / 5; 
+   background-color: #42AF5A;
+ } 
+ .div55 { 
+   grid-area: 8 / 5 / 9 / 6;
+   background-color: #42AF5A;
+ } 
+ .div56 { 
+   grid-area: 8 / 6 / 9 / 7; 
+   background-color: #383F4F;
+ } 
+ 
+ .div57 { grid-area: 8 / 7 / 9 / 8;} 
+ 
+ 
+ .line1{
+   height: 40px;
+   width: 120px;
+   background-color: #E1AD46;
+   border-radius: 100%;
+   rotate: -15deg;
+ }
+ 
+ .line2{
+   height: 40px;
+   width: 120px;
+   background-color: #E1AD46;
+   border-radius: 100%;
+   rotate: -15deg;
+ }
+ 
+ .line3{
+   height: 40px;
+   width: 120px;
+   background-color: #E1AD46;
+   border-radius: 100%;
+   rotate: -15deg;
+ }
+ 
+ .line4{
+   height: 40px;
+   width: 120px;
+   background-color: #E1AD46;
+   border-radius: 100%;
+   rotate: -15deg;
+ }
+ 
+ .line5{
+   height: 40px;
+   width: 120px;
+   background-color: #E1AD46;
+   border-radius: 100%;
+   rotate: -15deg;
+ }
+ 
+ .line6{
+   height: 40px;
+   width: 120px;
+   background-color: #E1AD46;
+   border-radius: 100%;
+   rotate: -15deg;
+ }
+
+ 
