@@ -6,18 +6,15 @@
 
 .container{
   display: grid;
-  height: 100vh;
-  grid-template-columns: 1fr .6fr;
-  grid-template-rows: .5fr .1fr .5fr, 1fr;
+  grid-template-columns: .7fr 1fr;
+  grid-template-rows: .3fr .1fr 1fr;
   grid-template-areas: 
-  "content1 content1"
-  "content2 content2"
-  "content3 content4" 
-  "content5 content5";
+  "content1 content1" 
+  "content2 content2" 
+  "content3 content4";
   grid-gap: 0.2rem;
   font-family: 'Source Serif Pro', serif;
   text-align: center;
-  background-color: rgb(223, 180, 120);
 }
 
 #content1{
@@ -47,12 +44,35 @@
   border-radius: var(--main-radius);
   padding-top: var(--main-padding);
   font-weight: 300;
-  font-size: 30px;
-  color:rgb(255, 255, 255);
+  font-size: 20px;
+  color:rgb(78, 11, 129);
+}
+
+.image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+
+}
+
+#content3:hover .image{
+  opacity: 0;
+  font-size: 0;
+}
+
+#content3 #review{
+  display: none;
+}
+
+#content3:hover #review{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #content4{
-  background:rgba(172, 126, 211, 0.835);
+  background:rgba(159, 65, 240, 0.835);
   grid-area: content4;
   border-radius: var(--main-radius);
   padding-top: var(--main-padding);
@@ -61,28 +81,17 @@
   color:rgb(47, 3, 60)
 }
 
-#content5{
-  background:rgba(159, 65, 240, 0.835);
-  grid-area: content5;
-  border-radius: var(--main-radius);
-  padding-top: var(--main-padding);
-  font-weight: 300;
-  font-size: 30px;
-  color:rgb(47, 3, 60)
-  
-}
-
-#content5 #recipe{
+#content4 #recipe{
   display: none;
 }
 
-#content5:hover #recipe{
+#content4:hover #recipe{
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-#content5:hover .box_item{
+#content4:hover .box_item{
   opacity: 0;
   font-size: 0;
 }
@@ -102,23 +111,14 @@
   text-align: center;
 }
 
-.underlined{
-  text-decoration: underline;
-}
-
-.bolded{
-  font-weight: bold;
-}
-
 @media only screen and (max-width:800px){
   .container{
       grid-template-columns: 1fr;
-      grid-template-rows: 0.4fr 0.2fr 1.2fr 1.2fr 1.2fr;
+      grid-template-rows: 0.4fr 0.2fr 1.2fr 1.2fr;
       grid-template-areas: 
       "content1"
       "content2"
       "content3"
-      "content4"
-      "content5";
+      "content4";
   }
 }

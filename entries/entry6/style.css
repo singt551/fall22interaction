@@ -48,18 +48,6 @@
   position: relative;
 }
 
-#content3:before {
-content: "";
-display: block;
-width: 190px;
-height: 3px;
-background: #0c2019;
-left: 0;
-top: 50%;
-position: absolute;
-justify-content: center;
-}
-
 #content4{
   grid-area: content4;
   font-family: 'Chonburi', cursive;
@@ -69,18 +57,6 @@ justify-content: center;
   max-width: 600px;
   position: relative;
 }
-
-#content4:before {
-  content: "";
-  display: block;
-  width: 170px;
-  height: 3px;
-  background: #0c2019;
-  left: 0;
-  top: 50%;
-  position: absolute;
-  justify-content: center;
-  }
 
 #content5{
   grid-area: content5;
@@ -92,18 +68,6 @@ justify-content: center;
   position: relative;
 }
 
-#content5:before {
-  content: "";
-  display: block;
-  width: 150px;
-  height: 3px;
-  background: #0c2019;
-  left: 0;
-  top: 50%;
-  position: absolute;
-  justify-content: center;
-  }
-
 #content6{
   grid-area: content6;
   font-family: 'Chonburi', cursive;
@@ -113,18 +77,6 @@ justify-content: center;
   max-width: 600px;
   position: relative;
 }
-
-#content6:before {
-  content: "";
-  display: block;
-  width: 150px;
-  height: 3px;
-  background: #0c2019;
-  left: 0;
-  top: 50%;
-  position: absolute;
-  justify-content: center;
-  }
 
 #content7{
   grid-area: content7;
@@ -136,18 +88,6 @@ justify-content: center;
   position: relative;
 }
 
-#content7:before {
-  content: "";
-  display: block;
-  width: 150px;
-  height: 3px;
-  background: #0c2019;
-  left: 0;
-  top: 50%;
-  position: absolute;
-  justify-content: center;
-  }
-
 #content8{
   grid-area: content8;
   font-family: 'Chonburi', cursive;
@@ -157,18 +97,6 @@ justify-content: center;
   max-width: 600px;
   position: relative;
 }
-
-#content8:before {
-  content: "";
-  display: block;
-  width: 250px;
-  height: 3px;
-  background: #0c2019;
-  left: 0;
-  top: 50%;
-  position: absolute;
-  justify-content: center;
-  }
 
 #content9{
   grid-area: content9;
