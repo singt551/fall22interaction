@@ -1,85 +1,45 @@
-head {
-    font-family: Cochin;
+body{
+  background-color: rosybrown;
+}
+
+h1{
+  font-family: 'Satisfy', cursive;
+  font-size: 80px;
+  color: rgb(14, 112, 107);
+  font-weight: 100;
+  text-align: center;
+}
+
+h2{
+  font-family: 'Satisfy', cursive;
+  font-size: 40px;
+  color:papayawhip;
+  font-weight: 100;
+  text-align: center;
+  margin: 0;
+}
+
+h3{
+    font-family: 'Satisfy', cursive;
+    font-size: 60px;
+    color:papayawhip;
+    font-weight: 100;
+    text-align: center;
+    margin: 0;
   }
 
-  h1 {
-    color: rgb(7, 61, 71);
-    text-align: center;
-    font-family: Playfair Display, serif;
-    font-size: 100px; 
-    line-height: 100px;
-  }
-
-  h2 {
-    color: rgb(7, 74, 86);
-    text-align: center;
-    font-family: Cochin;
+  h4{
+    font-family: 'Satisfy', cursive;
     font-size: 30px;
-    line-height: 5px;
-    font-style: italic;
-  }
-
-  .box_item{
-    width: 1385px;
-    height: 180px;
-    background-color:#ffb617e5;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Alice, serif;
-    font-size: 30px;
-    font-weight: 800;
-    color: rgb(16, 66, 75);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 20px;
+    color:plum;
+    font-weight: 100;
     text-align: center;
+    margin: 0;
   }
 
-  .box_item:hover{
-    font-size: 0;
+  img{
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
-
-  .box_item:hover:after{
-    content: attr(data-hover);
-    font-size: 24px;
-    line-height: 28px;
-    font-weight: 200px;
-    text-align: center;
-  }
-  
-  h4 {
-    color: rgb(1, 29, 34);
-font-style: bold;
-font-size: 20px;
-line-height: 10px;
-font-family: EB Garamond, serif;
-  }
-  
-  
-  p {
-    font-family: Cochin;
-    font-size: 50px;
-  }
-
-  div {
-    padding-top: 0px;
-    padding-right: 60px;
-    padding-bottom: 0px;
-    padding-left: 60px;
-  }
-
-.flex-container{
-  display: flex;
-}
-
-.main-content{
-  flex: 1;
-  width: 30px;
-}
-
-.sidebar{
-  flex: 1;
-  width: 70px;
-}
