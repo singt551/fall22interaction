@@ -1,101 +1,64 @@
-head {
-    font-family: Cochin;
-  }
+body{
+  font-family: 'Trochut', cursive;
+  background-color: black;
+}
 
-  h1 {
-    color: rgb(7, 61, 71);
-    text-align: center;
-    font-family: Playfair Display, serif;
-    font-size: 100px; 
-    line-height: 100px;
-  }
+h1{
+  font-family: 'Trochut', cursive;
+  font-size: 120px;
+  color: rgb(66, 160, 80);
+  font-weight: 600;
+  text-align: center;
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+  display: block;
+  margin-left: 70px;
+  transform: rotate(180deg);
+}
 
-  h2 {
-    color: rgb(7, 74, 86);
-    text-align: center;
-    font-family: Cochin;
-    font-size: 30px;
-    line-height: 5px;
-    font-style: italic;
-  }
+h2{
+  font-family: 'Trochut', cursive;
+  font-size: 120px;
+  color: rgb(195, 54, 54);
+  font-weight: 600;
+  text-align: center;
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+  display: block;
+  margin-left: 70px;
+}
 
-  .box_item{
-    width: 1385px;
-    height: 180px;
-    background-color:#ffb617e5;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Alice, serif;
-    font-size: 30px;
-    font-weight: 800;
-    color: rgb(16, 66, 75);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 20px;
-    text-align: center;
-  }
-
-  .box_item:hover{
-    font-size: 0;
-  }
-
-  .box_item:hover:after{
-    content: attr(data-hover);
-    font-size: 24px;
-    line-height: 28px;
-    font-weight: 200px;
-    text-align: center;
-  }
-  
-  h4 {
-    color: rgb(1, 29, 34);
-font-style: bold;
-font-size: 20px;
-line-height: 10px;
-font-family: EB Garamond, serif;
-  }
-  
-  
-  p {
-    font-family: Cochin;
-    font-size: 50px;
-  }
-
-  div {
-    padding-top: 0px;
-    padding-right: 60px;
-    padding-bottom: 0px;
-    padding-left: 60px;
-  }
-
-.flex-container{
+.flexbox{
   display: flex;
-
+  height: 51vw;
+  width: 25vw;
 }
 
-.main-content{
-  flex: 1;
-  width: 30px;
+.container{
+  display: grid;
+  grid-template-columns: .3fr 1fr;
+  grid-template-rows: .5fr;
+  grid-template-areas: 
+  "content1 content2";
+  grid-gap: 0.2rem;
+  text-align: center;
 }
 
-.sidebar{
-  flex: 1;
-  width: 70px;
+#content1{
+  font-family: 'Trochut', cursive;
+  font-size: 30px;
+  color:papayawhip;
+  font-weight: 100;
+  text-align: center;
+  margin: 30px;
+  display: block;
 }
 
-@media all and (min-width: 600px) {
-  body {
-    font-size: large;
-  }
+#content2{
+  font-family: 'Trochut', cursive;
+  font-size: 30px;
+  color:rgb(149, 8, 149);
+  font-weight: 100;
+  text-align: center;
+  margin: 30px;
 }
-
-@media all and (min-width: 800px) {
-  p {
-    font-size: large;
-    line-height: 1.5;
-  }
-}
-
-

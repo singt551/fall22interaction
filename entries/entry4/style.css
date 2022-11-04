@@ -2,44 +2,62 @@ body{
   background-color: rosybrown;
 }
 
-h1{
-  font-family: 'Satisfy', cursive;
-  font-size: 80px;
-  color: rgb(14, 112, 107);
-  font-weight: 100;
-  text-align: center;
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-h2{
+#content1{
+  font-family: 'Satisfy', cursive;
+  font-size: 80px;
+  color: rgb(13, 120, 115);
+  font-weight: 700;
+  text-align: center;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  display: block;
+  width: 48vw;
+  height: 55vw;
+  line-height: 1;
+  letter-spacing: -30px;
+}
+
+p{
+  grid-area: content5;
   font-family: 'Satisfy', cursive;
   font-size: 40px;
-  color:papayawhip;
+  color:rgb(249, 219, 170);
   font-weight: 100;
   text-align: center;
   margin: 0;
 }
 
-h3{
-    font-family: 'Satisfy', cursive;
-    font-size: 60px;
-    color:papayawhip;
-    font-weight: 100;
-    text-align: center;
-    margin: 0;
-  }
+#content2{
+  grid-area: content1;
+  font-family: 'Satisfy', cursive;
+  font-size: 200px;
+  color:papayawhip;
+  font-weight: 100;
+  text-align: center;
+  margin: 30px;
+}
 
-  h4{
-    font-family: 'Satisfy', cursive;
-    font-size: 30px;
-    color:plum;
-    font-weight: 100;
-    text-align: center;
-    margin: 0;
-  }
+#content3{
+  grid-area: content2;
+  font-family: 'Satisfy', cursive;
+  font-size: 30px;
+  color:rgb(163, 87, 163);
+  font-weight: 100;
+  text-align: center;
+  margin: 30px;
+}
 
   img{
-    width: 50vw;
+    width: 30vw;
     margin-left: auto;
     margin-right: auto;
     display: block;
   }
+
+

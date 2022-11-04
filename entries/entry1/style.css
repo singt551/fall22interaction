@@ -78,11 +78,14 @@
   padding-top: var(--main-padding);
   font-weight: 300;
   font-size: 30px;
-  color:rgb(47, 3, 60)
+  color:rgb(47, 3, 60);
+  display: flex;
+  justify-content: center;
 }
 
 #content4 #recipe{
   display: none;
+  max-width: 90%;
 }
 
 #content4:hover #recipe{
@@ -94,6 +97,7 @@
 #content4:hover .box_item{
   opacity: 0;
   font-size: 0;
+  display: none;
 }
 
 .box_item{
