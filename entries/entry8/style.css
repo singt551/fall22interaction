@@ -7,14 +7,6 @@ body{
     font-family: 'Poiret One', cursive; 
 }
 
-.center{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50vw;
-  height: 50vw;
-}
-
 h1{
     font-family: 'Poiret One', cursive;
     font-size: 130px;
@@ -25,50 +17,107 @@ h1{
     padding: 0;
 }
 
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  font-size: 30px;
-  text-align: center;
+h2{
+  font-family: 'Poiret One', cursive;
+    font-size: 50px;
+    font-weight: 300;
+    color: rgb(95, 95, 203);
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
-.flex-item-left {
-  padding: 10px;
-  flex: 50%;
+.container {
+  display: grid;
+  grid-template-columns: 1fr .4fr .4fr .4fr;
+  grid-template-rows: .3fr .3fr .3fr;
+  grid-template-areas: 
+  "content1 content2 content3 content4" 
+  "content1 content5 content6 content7"
+  "content8 content9 content9 content9";
 }
 
-.flex-item-right {
-  padding: 10px;
-  flex: 50%;
-}
-
-img { 
-    display: inline-block; 
-    height:100px; 
-    width: auto;   
+#content1{
+  grid-area: content1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 38vw;
+  width: 38vw;
 }
 
 #wrap{
-    margin: 50px;
+    grid-area: content2;
+    width: 20vw;
+    height: 18vw;
 }
 
 #salad{
-    padding: 10px;
+    grid-area: content6;
+    width: 12vw;
+    height: 10vw;
 }
 
 #barbecue{
-  padding: 10px;
+  grid-area: content5;
+  width: 10vw;
+  height: 8vw;
 }
 
 #cauliflower1{
-  padding: 10px;
+  grid-area: content4;
+  width: 10vw;
+  height: 8vw;
 }
 
 #cauliflower2{
-  padding: 10px;
+  grid-area: content7;
+  width: 10vw;
+  height: 8vw;
 }
 
 #cauliflower3{
-  padding: 10px;
+  grid-area: content3;
+  width: 10vw;
+  height: 8vw;
 }
+
+#content8{
+  grid-area: content8;
+  font-family: 'Poiret One', cursive;
+  font-size: 100px;
+  font-weight: 300;
+  color: rgb(54, 54, 247);
+  text-align: center;
+  margin: 20px;
+}
+
+#content9{
+  grid-area: content9;
+  font-family: 'Rubik', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  color: rgb(8, 8, 63);
+  text-align: left;
+  margin: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .container{
+    grid-template-columns: .8fr;
+    grid-template-rows: .2fr .2fr .2fr .2fr .2fr .2fr .2fr .2fr .2fr;
+    grid-template-areas: 
+    "content1"
+    "content2"
+    "content3"
+    "content4"
+    "content5"
+    "content6"
+    "content7"
+    "content8"
+    "content9";
+}
+}
+
+
 

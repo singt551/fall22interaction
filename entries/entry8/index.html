@@ -6,26 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="style.css">
-    <script src="site.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+     <!-- this is where we link to the jquery library -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+     <!-- this is where we connect to our external CSS and JS files -->
+     <link rel="stylesheet" href="style.css">
+     <script src="jquery.js"></script>
+    
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Rubik&display=swap" rel="stylesheet">
 
 </head>
 <body>
 
     <h1>Cripsy Chicken Wrap</h1>
-    <img src="./imgs/plate.png" alt="plate" class="center">
-    
-    <div class="flex-container">
-        <!-- these IDs are going to allow us to isolate each image in our jquery -->
-        <div class="flex-item-left"><img id="wrap" src="./imgs/wrap.png"></div>
-        <div class="flex-item-right"><img id="cauliflower1" src="./imgs/cauliflower1.png"></div>
-        <div class="flex-item-right"><img id="cauliflower2" src="./imgs/cauliflower2.png"></div>
-        <div class="flex-item-left"><img id="cauliflower3" src="./imgs/cauliflower3.png"></div>
-        <div class="flex-item-right"><img id="salad" src="./imgs/salad.png"></div>
-        <div class="flex-item-right"><img id="barbecue" src="./imgs/barbecue.png"></div> 
+    <h2>Arrange your meal as you please!</h2>
+
+    <div class="container">
+        <div id="content1"><img id="plate" src="./imgs/plate.jpg"></div>
+        <div id="content2"><img id="wrap" src="./imgs/wrap.jpg"></div>
+        <div id="content3"><img id="cauliflower3" src="./imgs/cauliflower3.jpg"></div>
+        <div id="content4"><img id="barbecue" src="./imgs/barbecue.jpg"></div> 
+        <div id="content5"><img id="cauliflower1" src="./imgs/cauliflower1.jpg"></div>
+        <div id="content6"><img id="salad" src="./imgs/salad.jpg"></div>
+        <div id="content7"><img id="cauliflower2" src="./imgs/cauliflower2.jpg"></div>
+        <div id="content8">9.8/10</div>
+        <div id="content9">This wrap was something new I was trying, and the results were amazing. The taste of the soft tortilla with the crunchy chicken tenders, balanced with the barbecue and chick-fil-a sauce was perfect. I would definitely consider adding some vegetables to this like lettuce, cucumber, tomatoes, onions or peppers to make it a little healthier. Overall, this was extremely tasty.</div>
 
     </div>
 
