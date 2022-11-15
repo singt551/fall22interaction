@@ -1,0 +1,150 @@
+h1{
+    font-size: 5.2vw;
+    color:rgb(246, 138, 99);
+    text-align: center;
+    justify-content: center;
+    font-family: 'Abril Fatface', cursive;
+    line-height: .001;
+    position: relative;
+ 
+}
+
+h2{
+    font-size: 5.2vw;
+    color:rgb(220, 203, 13);
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    line-height: .001;
+    position: relative;
+    justify-content: center;
+}
+
+h3{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 2vw;
+  color:rgb(39, 70, 98);
+  text-align: center;
+}
+
+body{
+    background-color: rgba(0, 255, 255, 0.917);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: .1fr .1fr .1fr .1fr .1fr .1fr .1fr .1fr .1fr;
+    grid-template-rows: .1fr .1fr;
+    grid-template-areas: 
+    "grid grid grid grid grid grid grid grid"
+    "burger burger1 burger2 burger3 burger4 fries fries1 fries2 fries3";
+    justify-content: center;
+  }
+  
+  #burger{
+      grid-area: content1;
+      width: 9vw;
+      height: 7vw;
+      justify-content: center;
+      text-align: center;
+  }
+
+  #burger1{
+    grid-area: content2;
+    width: 9vw;
+    height: 7vw;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #burger2{
+    grid-area: content3;
+    width: 9vw;
+    height: 7vw;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #burger3{
+    grid-area: content4;
+    width: 9vw;
+    height: 7vw;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #burger4{
+    grid-area: content5;
+    width: 9vw;
+    height: 7vw;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #grid{
+    grid-area: content6;
+    justify-content: center;
+    margin: auto;
+    width: 45vw;
+    height: 30vw;
+    justify-content: center;
+    text-align: center;
+}
+  
+  #fries{
+      grid-area: content7;
+      width: 10vw;
+      height: 8vw;
+      justify-content: center;
+      text-align: center;
+  }
+
+  #fries1{
+    grid-area: content8;
+    width: 10vw;
+    height: 8vw;
+    justify-content: center;
+    text-align: center;
+}
+
+#fries2{
+    grid-area: content9;
+    width: 10vw;
+    height: 8vw;
+    justify-content: center;
+    text-align: center;
+}
+
+#fries3{
+    grid-area: content10;
+    width: 10vw;
+    height: 8vw;
+    justify-content: center;
+    text-align: center;
+}
+
+hr {
+  border: none;
+  border-top: 10px dotted rgb(229, 255, 32);
+  height: 1px;
+  width: 80%;
+}
+
+
+  h4{
+    font-size: 7vw;
+    font-family: 'Abril Fatface', cursive;
+    color:rgb(44, 139, 136);
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+  }
+
+  h5{
+    font-size: 2.3vw;
+    font-family: 'Rubik', sans-serif;
+    color:rgb(13, 68, 86);
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+  }
+
