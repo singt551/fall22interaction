@@ -1,0 +1,66 @@
+body{
+    background-color: lemonchiffon;
+}
+
+h1{
+    font-family: 'Merienda', cursive;
+    font-size: 5.5vw;
+    text-align: center;
+    justify-content: center;
+    color:rgb(54, 5, 85);
+}
+
+h2{
+    font-family: 'Merienda', cursive;
+    font-size: 6vw;
+    text-align: center;
+    justify-content: center;
+    color: rgb(176, 67, 94);
+    margin: 2vw;
+}
+
+h3{
+    font-size: 2.3vw;
+    font-family: 'Rubik', sans-serif;
+    color:rgb(41, 41, 114);
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+}
+
+#prawn{
+    width: 23vw;
+    height: 23vw;
+    justify-content: left;
+    animation: rotation 8s infinite linear;
+}
+
+#prawn1{
+    width: 23vw;
+    height: 23vw;
+    justify-content: center;
+   
+}
+
+#prawn2{
+    width: 23vw;
+    height: 23vw;
+    justify-content: right;
+
+}
+
+#prawn3{
+    width: 23vw;
+    height: 23vw;
+    justify-content: right;    
+    animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
