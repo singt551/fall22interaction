@@ -1,50 +1,256 @@
-.grid{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 200px);
-    grid-auto-rows: 200px;
-    column-gap: 5px;
-    row-gap: 5px;
-    justify-content: center;
+body{
+  background-color: rgb(6, 6, 48);
+  font-family: Helvetica;
+}
+
+h1{
+  color:darkred;
+  font-size: 2vw;
+  justify-content: center;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 60;
+
+}
+
+h4{
+  color:darkred;
+  font-size: 2vw;
+  justify-content: center;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 60;
+}
+
+h5{
+  color:darkred;
+  font-size: 2vw;
+  justify-content: center;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 60;
+}
+
+.element		{ 
+  font-size: 20vw; 
+  position:absolute; 
+  text-align: center;
+  margin-top: 4vw;
+}
+#element-1		{ 
+  color:rgb(255, 255, 255); 
+  z-index:1;
+  margin-left:12vw;
+  font-family: Helvetica;
+  justify-content: center;
+  text-align: center; 
+}
+
+#element-2		{ 
+  color:lightblue;
+  margin-left:17vw;
+  z-index:2; 
+  font-family: Helvetica;
+  justify-content: center;
+  text-align: center;
+}
+
+#element-3		{ 
+  color:lightgreen;
+  margin-left:22vw;
+  z-index:3; 
+  font-family: Helvetica;
+  justify-content: center;
+  text-align: center;
+}
+
+#element-4		{ 
+  color:pink;
+  margin-left:27vw;
+  z-index:4; 
+  font-family: Helvetica;
+  justify-content: center;
+  text-align: center;
+}
+
+#element-5		{ 
+  color: yellow;
+  margin-left: 32vw;
+  z-index:5; 
+  font-family: Helvetica;
+  justify-content: center;
+  text-align: center;
+}
+
+#element-6		{ 
+  color: orange;
+  margin-left: 37vw;
+  z-index:6; 
+  font-family: Helvetica;
+  justify-content: center;
+  text-align: center;
+}
+
+#element-7		{ 
+  color:rgb(171, 64, 64);
+  margin-left: 42vw;
+  z-index:7; 
+  font-family: Helvetica;
+  justify-content: center;
+  text-align: center;
+}
+
+#element-8		{ 
+  color:rgb(99, 59, 59); 
+  margin-left: 47vw;
+  z-index:8; 
+  font-family: Helvetica;
+  justify-content: center;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 1300px) {
+  body{
+    background-color: rgb(141, 114, 153);
   }
-  
-  .grid div{
-    background-color: rgb(229, 229, 12);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+  .element		{ 
+    font-size: 20vw; 
+    margin-top: 2vw;
+    margin-bottom: 0vw;
+    position:absolute; 
+}
+
+#element-1		{ 
+  color: orange; 
+}
+
+#element-2		{ 
+  color: rgb(171, 64, 64);
+}
+
+#element-3		{ 
+  color: rgb(99, 59, 59);
+}
+
+#element-4		{ 
+  color:rgb(255, 255, 255)
+}
+
+#element-5		{ 
+  color: lightblue;
+}
+
+#element-6		{ 
+  color: lightgreen;
+}
+
+#element-7		{ 
+  color: pink;
+}
+
+#element-8		{ 
+  color: yellow; 
+}
+
+h1{
+  margin-bottom: 0vw;
+  font-size: 2.5vw;
+  justify-content: center;
+  text-align: center;
+}
+h4{
+  margin-bottom: 0vw;
+  font-size: 2.5vw;
+  justify-content: center;
+  text-align: center;
+}
+h5{
+  margin-bottom: 0vw;
+  font-size: 2.5vw;
+  justify-content: center;
+  text-align: center;
+}
+}
+
+@media screen and (max-width: 800px) {
+  body{
+    background-color: rgb(250, 195, 222);
   }
-  
-  .grid-item-1{
-    grid-row-start: 1;
-    grid-row-end: 1;
-    grid-column-start: 1;
-    grid-column-end: 4;
-  }
-  
-  .grid-item-2{
-    grid-row-start: 1;
-    grid-row-end: 3;
-    grid-column-start: 3;
-    grid-column-end: 4;
-  }
-  
-  .grid-item-3{
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 2;
-    grid-column-end: 3;
-  }
-  
-  .grid-item-4{
-    grid-row-start: 2;
-    grid-row-end: 4;
-    grid-column-start: 1;
-    grid-column-end: 2;
-  }
-  
-  .grid-item-5{
-    grid-row-start: 3;
-    grid-row-end: 4;
-    grid-column-start: 2;
-    grid-column-end: 4;
-  }
+
+  .element		{ 
+    font-size: 30vw; 
+    margin-top: 2vw;
+    margin-bottom: 0vw;
+    position:absolute; 
+}
+
+#element-1		{ 
+  color: rgb(99, 59, 59);
+  z-index:1;
+  margin-left:8vw;
+}
+
+#element-2		{ 
+  color: rgb(171, 64, 64);
+  z-index:2;
+  margin-left:12vw;
+}
+
+#element-3		{ 
+  color: orange; 
+  z-index:3;
+  margin-left:16vw;
+}
+
+#element-4		{ 
+  color: yellow; 
+  z-index:4;
+  margin-left:20vw;
+}
+
+#element-5		{ 
+  color: pink;
+  z-index:5;
+  margin-left:24vw;
+}
+
+#element-6		{ 
+  color: lightgreen;
+  z-index:6;
+  margin-left:28vw;
+}
+
+#element-7		{ 
+  color: lightblue;
+  z-index:7;
+  margin-left:32vw;
+
+}
+
+#element-8		{ 
+  color:rgb(255, 255, 255);
+  z-index:8;
+  margin-left:33vw;
+}
+
+h1{
+  margin-bottom: 0vw;
+  font-size: 2.5vw;
+  justify-content: center;
+  text-align: center;
+}
+h4{
+  margin-bottom: 0vw;
+  font-size: 2.5vw;
+  justify-content: center;
+  text-align: center;
+}
+h5{
+  margin-bottom: 0vw;
+  font-size: 2.5vw;
+  justify-content: center;
+  text-align: center;
+}
+}
