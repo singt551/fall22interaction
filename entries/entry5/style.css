@@ -46,7 +46,7 @@ h2{
 
 #content1{
   font-family: 'Trochut', cursive;
-  font-size: 30px;
+  font-size: 150px;
   color:papayawhip;
   font-weight: 100;
   text-align: center;
@@ -55,9 +55,9 @@ h2{
 }
 
 #content2{
-  font-family: 'Trochut', cursive;
+  font-family: 'Rubik', sans-serif;
   font-size: 30px;
-  color:rgb(149, 8, 149);
+  color:papayawhip;
   font-weight: 100;
   text-align: center;
   margin: 30px;

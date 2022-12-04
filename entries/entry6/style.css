@@ -1,8 +1,11 @@
+body{
+  background-color: #A6B1A3;
+}
+
 .container{
   display: grid;
-  height: 147vh;
-  grid-template-columns: 0.3fr 2fr;
-  grid-template-rows: .3fr .1fr .1fr .1fr .1fr .1fr .1fr .2fr;
+  grid-template-columns: .3fr 2fr;
+  grid-template-rows: .3fr .2fr .2fr .2fr .2fr .2fr .2fr .3fr;
   grid-template-areas: 
   "content1 content2"
   "content1 content3"
@@ -16,7 +19,6 @@
   font-family: Alice, serif;
   color: rgb(1, 53, 62);
   text-align: center;
-  background-color: #A6B1A3;
 }
 
 #content1{
@@ -100,10 +102,13 @@
 
 #content9{
   grid-area: content9;
-  font-family: 'Chonburi', cursive;
-  font-size: 20px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 25px;
   color:#2B463E;
   margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
   
 }
 
@@ -112,6 +117,7 @@ h1{
   color: #233d3d;
   font-size: 40px;
   line-height: 180px;
+  margin-top: 20px;
 }
 
 h2{
@@ -129,19 +135,75 @@ h2{
 
 @media only screen and (max-width:800px){
   .container{
-    grid-template-columns: 0.3fr 2fr;
-    grid-template-rows: .3fr .1fr .1fr .1fr .1fr .1fr .1fr .2fr;
+    grid-template-columns: .3fr;
+    grid-template-rows: .1fr .1fr .1fr .1fr .1fr .1fr .1fr .1fr;
     grid-template-areas: 
-    "content1 content2"
-    "content1 content3"
-    "content1 content4"
-    "content1 content5"
-    "content1 content6"
-    "content1 content7"
-    "content1 content8"
-    "content1 content9";
-    font-size: 20%;
+    "content1" 
+    "content2"
+    "content3"
+    "content4"
+    "content5"
+    "content6"
+    "content7"
+    "content8"
+    "content9";
+    justify-content: center;
+    text-align: center;
   }
+
+  #content1{
+  font-size: 10px;
+  text-align: center;
+  justify-content: center;
+  }
+
+  #content2{
+    font-size: 70px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  #content3{
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  #content4{
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  #content5{
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #content6{
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  #content7{
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  #content8{
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  #content9{
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+  }
+
 }
 
 

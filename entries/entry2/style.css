@@ -5,14 +5,13 @@ body{
 
   .container {
     display: grid;
-    height: 100vh;
     grid-template-columns: .8fr .5fr .5fr .5fr;
     grid-template-rows: .4fr .4fr .4fr .4fr;
     grid-template-areas: 
     "content1 content4 content5 content6" 
     "content1 content7 content8 content9"
     "content1 content10 content11 content12"
-    "content2 content3 content13 content14";
+    "content2 content13 content13 content13";
   }
   
   #content1{
@@ -104,31 +103,12 @@ body{
   #content13{
     grid-area: content13;
     color: rgb(10, 48, 237);
-    text-align: center;
-    font-family: 'Fredoka One', cursive;
+    text-align: left;
+    font-family: 'Rubik', sans-serif;
     font-size: 30px;
     justify-content: left;
   }
 
-  #content3{
-    grid-area: content3;
-    color: rgba(80, 102, 226, 0.847);
-    text-align: center;
-    font-family: 'Fredoka One', cursive;
-    font-size: 130px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 130px;
-  }
-
-  #content14{
-    grid-area: content14;
-    color: rgb(10, 48, 237);
-    text-align: center;
-    font-family: 'Fredoka One', cursive;
-    font-size: 30px;
-    justify-content: left;
-  }
 
   p{
     color: rgb(7, 24, 108);
@@ -143,7 +123,6 @@ body{
     text-align: center;
     font-family: 'Fredoka One', cursive;
     font-size: 50px;
-    font-style: italic;
   }
 
   h1{
@@ -161,17 +140,40 @@ body{
     text-align: center;
     font-family: 'Fredoka One', cursive;
     font-size: 40px;
-    font-style: italic;
   }
 
   h3{
-    grid-area: content3;
+    grid-area: content2;
     color: #b01c37;
     text-align: center;
     font-family: 'Fredoka One', cursive;
-    font-size: 60px;
+    font-size: 130px;
     font-style: uppercase;
     text-align: center;
+    margin-top: 0px;
+  }
+
+  @media only screen and (max-width:800px){
+    .container{
+        grid-template-columns: .3fr;
+        grid-template-rows: .5fr .5fr .5fr .5fr .5fr .5fr .5fr .5fr .5fr .5fr .5fr .5fr;
+        grid-template-areas: 
+        "content1"
+        "content4"
+        "content5"
+        "content6"
+        "content7"
+        "content8"
+        "content9"
+        "content10"
+        "content11"
+        "content12"
+        "content2"
+        "content13";
+        ;
+        justify-content: center;
+        text-align: center;
+    }
   }
 
 
