@@ -116,7 +116,64 @@ h2{
     "content7"
     "content8"
     "content9";
+    text-align: center;
+    justify-content: center;
 }
+
+#content1{
+  justify-content: center;
+  text-align: center;
+  grid-area: content1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50vw;
+  width: 50vw;
+}
+
+#content2{
+  justify-content: center;
+  text-align: center;
+  width: 30vw;
+  height: 18vw;
+}
+
+#content3{
+  justify-content: center;
+  text-align: center;
+  width: 30vw;
+  height: 16vw;
+}
+
+#content4{
+  justify-content: center;
+  text-align: center;
+  width: 30vw;
+  height: 16vw;
+}
+
+#content5{
+  justify-content: center;
+  text-align: center;
+  width: 30vw;
+  height: 16vw;
+}
+
+#content6{
+  justify-content: center;
+  text-align: center;
+  width: 30vw;
+  height: 16vw;
+}
+
+#content7{
+  justify-content: center;
+  text-align: center;
+  width: 30vw;
+  height: 16vw;
+}
+
+
 }
 
 

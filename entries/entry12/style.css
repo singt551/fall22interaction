@@ -1,0 +1,135 @@
+body{
+    background-color:rgb(255, 131, 146);
+}
+
+h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 10vw;
+    color: mediumorchid;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0vw;
+}
+
+h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 3vw;
+    justify-content: center;
+    text-align: center;
+    color: rgb(245, 202, 138);
+    margin-top: -8vw;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: .5fr .5fr .5fr;
+    grid-template-rows: .4fr .4fr .4fr .4fr;
+    grid-template-areas: 
+    "content1 content2 content3" 
+    "content4 content5 content6"
+    "content7 content8 content9"
+    "content10 content11 content";
+  }
+
+  #content1{
+    grid-area: content1;
+    color: rgb(7, 24, 111);
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    justify-content: center;
+  }
+
+  #content2{
+    grid-area: content2;
+    color: rgb(7, 24, 111);
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    justify-content: center;
+  }
+
+  #content3{
+    grid-area: content3;
+    color: rgb(7, 24, 111);
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    justify-content: center;
+  }
+
+  #content4{
+    grid-area: content4;
+    color: rgb(7, 24, 111);
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    justify-content: center;
+  }
+
+  #content5{
+    grid-area: content5;
+    color: rgb(7, 24, 111);
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    justify-content: center;
+  }
+
+  #content6{
+    grid-area: content6;
+    color: rgb(7, 24, 111);
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    justify-content: center;
+  }
+
+  #content7{
+    grid-area: content7;
+    color: rgb(7, 24, 111);
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    justify-content: center;
+  }
+
+  #content8{
+    grid-area: content8;
+    color: rgb(7, 24, 111);
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    justify-content: center;
+  }
+
+  #content9{
+    grid-area: content9;
+    color: rgb(7, 24, 111);
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    justify-content: center;
+  }
+
+  #content10{
+    grid-area: content10;
+    color: rgb(7, 24, 111);
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    justify-content: center;
+  }
+
+  #content11{
+    grid-area: content11;
+    color: rgb(7, 24, 111);
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    justify-content: center;
+  }
+   
+
+
+
