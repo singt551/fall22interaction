@@ -1,0 +1,46 @@
+header{
+    padding: 5% 40%;
+    text-align: center;
+    background: url(https://images.pexels.com/photos/2946979/pexels-photo-2946979.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% ;
+    background-color: darkseagreen;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header p{
+    color: white;
+    font-size: 30px;
+    padding: 5%;
+    margin: 5% 0px;
+    background: rgba(38, 102, 70, 0.8);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.bookmarks{
+    display: inline-block;
+    border-radius: 10px;
+    color: white;
+    padding: 1% 5%;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px 3%;
+ 
+}
+
+.bookmarks:hover{
+    background-image: linear-gradient(to right, yellow, blue);
+    color:midnightblue;
+}
+
+.topnav {
+    padding: 20px;
+    text-align: center;
+    background : url("https://media3.giphy.com/media/0IGRygDt5cMP2Q0Jmu/giphy.gif")
+  }
+
+  .center{
+    text-align: center !important;
+  }

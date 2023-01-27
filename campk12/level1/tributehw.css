@@ -1,0 +1,38 @@
+body{
+    margin: 5%;
+    color: rgb(46, 45, 45);
+    text-align: center;
+    background-color:rgb(162, 220, 162);
+}
+
+
+h1{
+    color: rgb(40, 3, 77);
+    margin-top: 3%;
+    font-size: 60px;
+    font-family: 'Crimson Text', serif;
+}
+
+h4{
+    letter-spacing: 8px;
+    color: rgb(82, 22, 142);
+    font-family: 'Crimson Text', serif;
+}
+
+p{
+    margin-top: 5%;
+    color: rgb(105, 64, 114);
+    text-align: justify;
+    font-family: 'Crimson Text', serif;
+}
+
+.blue{
+    background-color: midnightblue;
+    height: 4px;
+}
+
+.red{
+    background-color: rgb(163, 46, 46);
+    height: 4px;
+}
+
